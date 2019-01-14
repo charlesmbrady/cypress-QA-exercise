@@ -28,3 +28,13 @@ NOTE: the testfile is "cypress-QA-exercise/cypress/integration/calc-spec.js"
 - Make sure the values displayed on the right are correctly displayed based on the Loan Amount, Length, and Interest Rate
 
     - Check these based on a few of the valid input values (extremes, and one in the middle)
+
+
+Bugs:
+98.9 is supposed to be a valid Interest Rate value, but sometimes it is not...
+
+to reproduce:
+1. type 100000 in the Interest Rate box, hit enter
+2. type 98.9 in the interest Rate box, hit enter (it is valid)
+3. repeat steps 1 and 2, but notice 98.9 is said to be invalid
+4. repeat steps 1 and 2 again, but notice 98.9 is VALID again!
