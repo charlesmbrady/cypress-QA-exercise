@@ -1,5 +1,6 @@
 # cypress-QA-exercise
 TEST PLAN
+NOTE: the testfile is "cypress-QA-exercise/cypress/integration/calc-spec.js"
 
 - Make sure calculator is visible
 
